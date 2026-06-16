@@ -1,7 +1,7 @@
 
 # 🍽️ FoodFlow – Skip the Queue. Order Smart.
 
-FoodFlow is a **Campus Dining Platform** that lets students browse menus from all campus food outlets, place orders instantly, and track their food in real-time — all from their phone.
+FoodFlow is a **Campus Dining Platform** that lets students browse menus from all campus food outlets, place orders instantly, and track their food in real-time, all from their phone.
 
 ---
 
