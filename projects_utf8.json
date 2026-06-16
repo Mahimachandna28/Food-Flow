@@ -1,0 +1,104 @@
+﻿{
+  "status": "success",
+  "result": [
+    {
+      "projectId": "connect--to--artist",
+      "projectNumber": "535034304711",
+      "displayName": "CONNECT  TO  ARTIST",
+      "name": "projects/connect--to--artist",
+      "resources": {
+        "hostingSite": "connect--to--artist"
+      },
+      "state": "ACTIVE",
+      "etag": "1_eb2daab4-9116-4fa1-b141-0ba43d6af2ee"
+    },
+    {
+      "projectId": "connect-artist-5c12f",
+      "projectNumber": "294929051970",
+      "displayName": "Connect Artist",
+      "name": "projects/connect-artist-5c12f",
+      "resources": {
+        "hostingSite": "connect-artist-5c12f"
+      },
+      "state": "ACTIVE",
+      "etag": "1_61b32e46-081f-4969-9a2c-3a05790407b2"
+    },
+    {
+      "projectId": "connect-artist-8d5df",
+      "projectNumber": "475076139979",
+      "displayName": "Connect Artist",
+      "name": "projects/connect-artist-8d5df",
+      "resources": {
+        "hostingSite": "connect-artist-8d5df"
+      },
+      "state": "ACTIVE",
+      "etag": "1_b51f63d7-1bbb-4bff-8c89-c2ae5b2240b7"
+    },
+    {
+      "projectId": "controlpannel",
+      "projectNumber": "681856488246",
+      "displayName": "Control Panel",
+      "name": "projects/controlpannel",
+      "resources": {
+        "hostingSite": "controlpannel"
+      },
+      "state": "ACTIVE",
+      "etag": "1_7592e14d-54da-4d54-89e5-20c5f4c6c97b"
+    },
+    {
+      "projectId": "erboristeria-monreale",
+      "projectNumber": "664473911181",
+      "displayName": "Erboristeria Monreale",
+      "name": "projects/erboristeria-monreale",
+      "resources": {
+        "hostingSite": "erboristeria-monreale"
+      },
+      "state": "ACTIVE",
+      "etag": "1_b0e4a325-bfd7-48e9-8515-29dfffdf7a85"
+    },
+    {
+      "projectId": "gym-project-e6b05",
+      "projectNumber": "996914228914",
+      "displayName": "gym project",
+      "name": "projects/gym-project-e6b05",
+      "resources": {
+        "hostingSite": "gym-project-e6b05"
+      },
+      "state": "ACTIVE",
+      "etag": "1_c8e00140-cd07-4ab6-b513-9c1d52f9c1eb"
+    },
+    {
+      "projectId": "mdl-digital-library",
+      "projectNumber": "984606770946",
+      "displayName": "MDL Digital Library",
+      "name": "projects/mdl-digital-library",
+      "resources": {
+        "hostingSite": "mdl-digital-library"
+      },
+      "state": "ACTIVE",
+      "etag": "1_2e24537e-c851-4e51-b58b-0e418616ec12"
+    },
+    {
+      "projectId": "saas-dashboard-app",
+      "projectNumber": "1019662713194",
+      "displayName": "SaaS Dashboard",
+      "name": "projects/saas-dashboard-app",
+      "resources": {
+        "hostingSite": "saas-dashboard-app"
+      },
+      "state": "ACTIVE",
+      "etag": "1_c5ef6ae2-1a45-45f7-b286-14397b6cfae2"
+    },
+    {
+      "projectId": "tutorspace-40712",
+      "projectNumber": "516267043545",
+      "displayName": "tutorspace",
+      "name": "projects/tutorspace-40712",
+      "resources": {
+        "hostingSite": "tutorspace-40712"
+      },
+      "state": "ACTIVE",
+      "etag": "1_af0d7701-dab3-4662-8f76-2e950d882664"
+    }
+  ]
+}
