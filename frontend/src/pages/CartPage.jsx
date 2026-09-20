@@ -21,8 +21,8 @@ function CartPage() {
     new Promise((resolve) => {
       const existing = document.getElementById('razorpay-checkout-script')
       if (existing) return resolve(true)
-
-      const script = document.createElement('script')
+const [paymentMethod, setPaymentMethod] = useState('ONLINE')
+const razorpayKeyId = import.meta.env.VITE_RAZORPAY_KEY_ID?.trim() || 'rzp_test_SgEu1IvAwCfYWD'
       script.id = 'razorpay-checkout-script'
       script.src = 'https://checkout.razorpay.com/v1/checkout.js'
       script.onload = () => resolve(true)
