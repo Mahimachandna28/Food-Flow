@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:2006/api";
+const API_BASE = "https://food-flow-backend-jet.vercel.app/api";
 
 export const authAPI = {
   signup: async ({ email, password, full_name, role, outlet_name }) => {
