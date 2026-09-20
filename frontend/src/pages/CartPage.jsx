@@ -22,21 +22,21 @@ function CartPage() {
       const existing = document.getElementById('razorpay-checkout-script')
       if (existing) return resolve(true)
 const [paymentMethod, setPaymentMethod] = useState('ONLINE')
-const razorpayKeyId = import.meta.env.VITE_RAZORPAY_KEY_ID?.trim() || 'rzp_test_SgEu1IvAwCfYWD'
+  const razorpayKeyId = import.meta.env.VITE_RAZORPAY_KEY_ID?.trim() || 'rzp_test_SgEu1IvAwCfYWD'
+  const isOnlinePaymentConfigured = Boolean(razorpayKeyId)
+
+  const loadRazorpayScript = () =>
+    new Promise((resolve) => {
+      const existing = document.getElementById('razorpay-checkout-script')
+      if (existing) return resolve(true)
+
+      const script = document.createElement('script')
       script.id = 'razorpay-checkout-script'
       script.src = 'https://checkout.razorpay.com/v1/checkout.js'
       script.onload = () => resolve(true)
       script.onerror = () => resolve(false)
       document.body.appendChild(script)
     })
-
-  if (isLoading) {
-    return (
-      <main className="page-wrap">
-        <section className="dashboard-card"><p className="page-message">Loading...</p></section>
-      </main>
-    )
-  }
 
   if (!user) return <Navigate to="/user/signin" replace />
 
