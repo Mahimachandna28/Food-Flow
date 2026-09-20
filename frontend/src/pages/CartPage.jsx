@@ -13,15 +13,7 @@ function CartPage() {
   const [notes, setNotes] = useState('')
   const [isPlacing, setIsPlacing] = useState(false)
   const [error, setError] = useState('')
-  const [paymentMethod, setPaymentMethod] = useState('COD')
-  const razorpayKeyId = import.meta.env.VITE_RAZORPAY_KEY_ID?.trim() || ''
-  const isOnlinePaymentConfigured = Boolean(razorpayKeyId)
-
-  const loadRazorpayScript = () =>
-    new Promise((resolve) => {
-      const existing = document.getElementById('razorpay-checkout-script')
-      if (existing) return resolve(true)
-const [paymentMethod, setPaymentMethod] = useState('ONLINE')
+  const [paymentMethod, setPaymentMethod] = useState('ONLINE')
   const razorpayKeyId = import.meta.env.VITE_RAZORPAY_KEY_ID?.trim() || 'rzp_test_SgEu1IvAwCfYWD'
   const isOnlinePaymentConfigured = Boolean(razorpayKeyId)
 
